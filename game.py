@@ -53,3 +53,20 @@ elif (decision == "2"):
     print("Your items now: ")
     print(player_items)
 #            ---section end---           #
+
+#Section author: Bahadir
+print("Polise stop you and try get taxes from you! What do you do!")
+print("1. Fight the police")
+print("2. Just pay your taxex")
+decision = input("pick a number")
+if (decision == 1):
+    print("You got arrested! Game over!")
+    exit()
+elif (decision == 2):
+    print("you lost all your money")
+    money = money * 0.8
+    print("The money you have left is:")
+    print(str(money))
+else:
+    print("please enter 1 or 2")
+    
